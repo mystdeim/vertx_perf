@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'mystdeim'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    vertxVersion = "3.8.3"
+}
+
+dependencies {
+    implementation "io.vertx:vertx-core:$vertxVersion"
+    implementation "io.vertx:vertx-web:$vertxVersion"
+}

@@ -1,0 +1,15 @@
+.idea
+*.iml
+*.zip
+*.class
+
+.vertx
+.gradle*
+
+/webroot/assets/lib
+/build/
+/out
+/log
+/node_modules
+
+hs_err_pid*
