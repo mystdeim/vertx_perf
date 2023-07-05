@@ -59,3 +59,27 @@ Requests/sec:  28388.10
 Transfer/sec:      2.79MB
 
 ```
+
+
+Regular **Markdown** here.
+
+<div hidden>
+```
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+		
+@enduml
+```
+</div>
+
+![](firstDiagram.svg)
+
+Some more markdown.
+
+
+
+
+
+
